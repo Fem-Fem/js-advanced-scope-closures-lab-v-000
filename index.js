@@ -7,7 +7,7 @@ function produceDrivingRange(range) {
       debugger
       // calculateValues.push(values[i].substring(0, values[i].length-1))
     }
-    return calculateValues
+    // return calculateValues
   }
 }
 //
