@@ -5,13 +5,6 @@ function produceDrivingRange(range) {
     calculateValues = []
     for (var i = 0, i <= 2, i++) {
       values[i].substring(0, values[i].length-1)
-
-    }
-    if (range >= value) {
-      return range
-    }
-    else {
-      return value
     }
   }
 }
