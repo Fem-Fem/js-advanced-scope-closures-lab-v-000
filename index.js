@@ -9,7 +9,7 @@ function produceDrivingRange(range) {
       return `within range by ${final_value}`
     }
     else {
-      return `${final_value} blocks out of range`
+      return `${Math.abs(final_value)} blocks out of range`
     }
   }
 }
