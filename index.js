@@ -5,6 +5,7 @@ function produceDrivingRange(range) {
     let first_value = parseInt(value1.substring(0, value1.length - 2))
     let second_value = parseInt(value2.substring(0, value2.length - 2))
     let final_value = Math.abs(first_value - second_value)
+    // let inOrOutOfRange = Math.abs()
     if (final_value < range) {
       return `In range`
     }
