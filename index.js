@@ -6,10 +6,10 @@ function produceDrivingRange(range) {
     let second_value = parseInt(value2.substring(0, value2.length - 2))
     let final_value = Math.abs(range - Math.abs(first_value - second_value))
     if (final_value >= 0) {
-      return `In range`
+      return final_value
     }
     else {
-      return `within range by ${final_value}`
+      return final_value
     }
   }
 }
