@@ -1,6 +1,6 @@
 
 
-function produceDrivingRange(range) {
+function produceDrivingRange(ranges) {
   return function withinDrivingRange(value) {
     if (range >= value) {
       return range
