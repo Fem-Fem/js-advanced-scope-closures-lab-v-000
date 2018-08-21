@@ -27,20 +27,3 @@ function createDriver() {
       this.id = ++DriverId;
     }
 }
-
-
-unction createItem(){
-  let ItemId = 0
-  // return the class
-  return class {
-    constructor(name, manufacturePrice){
-      this.name = name
-      this.manufacturePrice = manufacturePrice
-      this.id = ++ItemId;
-    }
-
-    retailPrice(marketMultiplier){
-      return marketMultiplier * this.manufacturePrice;
-    }
-  }
-}
