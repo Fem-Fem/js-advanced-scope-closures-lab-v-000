@@ -1,8 +1,8 @@
 
 
 function produceDrivingRange(range) {
-  return function withinDrivingRange(value) {
-    calculateRanges = []
+  return function withinDrivingRange(values) {
+    calculateValues = []
     ranges.push
     if (range >= value) {
       return range
