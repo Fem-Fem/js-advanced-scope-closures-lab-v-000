@@ -5,8 +5,9 @@ function produceDrivingRange(range) {
     calculateValues = []
     for (var i = 0, i <= 2, i++) {
       debugger
-      values[i].substring(0, values[i].length-1)
+      calculateValues.push(values[i].substring(0, values[i].length-1))
     }
+
   }
 }
 //
