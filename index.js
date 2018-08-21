@@ -5,7 +5,7 @@ function produceDrivingRange(range) {
     let calculateValues = []
     calculateValues.push(parseInt(value1.substring(0, value1.length - 2)))
     calculateValues.push(parseInt(value2.substring(0, value2.length - 2)))
-    debugger
+    return calculateValues
   }
 }
 //
