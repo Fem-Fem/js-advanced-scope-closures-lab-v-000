@@ -22,9 +22,9 @@ function createDriver() {
   let DriverId = 0
 
   return class {
-    constructor(name, manufacturePrice){
+    constructor(name){
       this.name = name
-      this.id = ++ItemId;
+      this.id = ++DriverId;
     }
 }
 
