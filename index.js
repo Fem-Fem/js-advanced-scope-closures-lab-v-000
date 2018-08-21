@@ -4,7 +4,13 @@ function produceDrivingRange(range) {
   return function withinDrivingRange(value1, value2) {
     let first_value = parseInt(value1.substring(0, value1.length - 2))
     let second_value = parseInt(value2.substring(0, value2.length - 2))
-    return calculateValues
+    let final_value = Math.abs(first_value - second_value)
+    if (final_value < range) {
+      return `In range`
+    }
+    else {
+      return `Out of range`
+    }
   }
 }
 //
