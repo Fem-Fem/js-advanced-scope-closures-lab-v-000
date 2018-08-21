@@ -4,7 +4,7 @@ function produceDrivingRange(range) {
   return function withinDrivingRange(value1, value2) {
     let first_value = parseInt(value1.substring(0, value1.length - 2))
     let second_value = parseInt(value2.substring(0, value2.length - 2))
-    let final_value = Math.abs(range - Math.abs(first_value - second_value))
+    let final_value = range - Math.abs(first_value - second_value))
     if (final_value >= 0) {
       return final_value + 1
     }
