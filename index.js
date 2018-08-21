@@ -6,7 +6,7 @@ function produceDrivingRange(range) {
       return range
     }
     else {
-      return false
+      return range
     }
   }
 }
