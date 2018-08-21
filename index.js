@@ -15,12 +15,6 @@ function produceDrivingRange(range) {
 function produceTipCalculator(range) {
   return function tippingValue(value) {
     return range * value
-    // if (final_value >= 0) {
-    //   return `within range by ${final_value}`
-    // }
-    // else {
-    //   return `${Math.abs(final_value)} blocks out of range`
-    // }
   }
 }
 //
