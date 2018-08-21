@@ -3,11 +3,7 @@
 function produceDrivingRange(range) {
   return function withinDrivingRange(values) {
     let calculateValues = []
-    for (let i = 0, i <= 2, i++) {
-      debugger
-      // calculateValues.push(values[i].substring(0, values[i].length-1))
-    }
-    // return calculateValues
+    debugger
   }
 }
 //
