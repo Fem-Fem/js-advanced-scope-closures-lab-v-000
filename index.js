@@ -9,7 +9,7 @@ function produceDrivingRange(range) {
       return `In range`
     }
     else {
-      return ` ${final_value}blocks out of range`
+      return `${final_value} blocks out of range`
     }
   }
 }
