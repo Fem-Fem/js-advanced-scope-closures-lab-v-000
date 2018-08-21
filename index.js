@@ -1,4 +1,16 @@
-// 
+
+
+function produceDrivingRange(range) {
+  return function withinDrivingRange(value) {
+    if (range >= value) {
+      return true
+    }
+    else {
+      return false
+    }
+  }
+}
+//
 //
 // Instructions
 //
