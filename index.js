@@ -3,7 +3,7 @@
 function produceDrivingRange(range) {
   return function withinDrivingRange(value) {
     if (range >= value) {
-      return true
+      return range
     }
     else {
       return false
