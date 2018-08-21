@@ -1,7 +1,9 @@
 
 
-function produceDrivingRange(ranges) {
+function produceDrivingRange(range) {
   return function withinDrivingRange(value) {
+    calculateRanges = []
+    ranges.push
     if (range >= value) {
       return range
     }
